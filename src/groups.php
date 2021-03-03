@@ -55,8 +55,8 @@ $pages = ceil($total_results / $results);
     <div class="container">
         <a href="../index.php"><button class="btn btn-primary back">Back</button></a>
         <?php
-        for ($page = 1; $page < $pages; $page++) {
-            echo '<a href="groups.php?page=' . $page . '" class="btn btn-dark">' . $page . '</a>';
+        for ($page = 1; $page <= $pages; $page++) {
+            echo '&nbsp;<a href="groups.php?page=' . $page . '" class="btn btn-dark">' . $page . '</a>';
         }
         ?>
 
