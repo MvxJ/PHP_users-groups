@@ -1,0 +1,64 @@
+.row {
+    padding-top: 100px;
+}
+
+.column1 {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin-right: 15px;
+    min-height: 400px;
+    min-width: 400px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.column2 {
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin-right: 15px;
+    min-height: 400px;
+    min-width: 400px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.btn1 {
+    min-width: 100px;
+    margin-top: 25px;
+
+}
+
+.col-sm:hover {
+    transform: scale(1.02);
+    transition: 0.2s ease;
+}
+
+.mainimg {
+    width: 200px;
+    height: 200px
+}
+
+h3 {
+    padding-top: 25px;
+}
+
+.addgr {
+    float: right;
+    margin-right: 0px;
+}
+
+.gr {
+    margin-top: 50px;
+}
+
+.mainc {
+    min-height: 80vh;
+}
+
+.bt {
+    margin-left: 15px;
+}
+
+.back {
+    float: right;
+}
