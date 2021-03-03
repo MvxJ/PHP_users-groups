@@ -25,6 +25,6 @@ Autor : Maksymilian Jachymczak
 1. Launch xampp or enother program
 2. Start mysql server and apache server
 3. Create database named 'jachymczak_project'
-4. Import database structure and records from file ''
+4. Import database structure and records from file `jachymczak_project.sql`
 5. Import index.php and, src folder if you using xampp create folder here  `xampp/htdocs/` and paste files
 6. Launch your apache server and find app location.
