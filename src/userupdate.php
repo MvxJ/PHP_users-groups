@@ -72,7 +72,7 @@ if (isset($_GET['id'])) {
                         while ($row = mysqli_fetch_array($execute)) {
                         ?>
                             <option <?php if ($gr_id == $row['id']) {
-                                        echo 'checked';
+                                        echo "selected";
                                     } ?> value="<?php echo $row['id'] ?>"><?php echo $row['group_name'] ?></option>
                         <?php
                         }
