@@ -4,8 +4,7 @@ $gr_id = $_GET['id'];
 //updating existing record
 if (isset($_POST['submit'])) {
     $new_name = strtoupper($_POST['name']);
-    $new_id = $_POST['grid'];
-    $sql = "update groups set id='" . $new_id . "',group_name='" . $new_name . "' where id='" . $gr_id . "'";
+    $sql = "update groups set group_name='" . $new_name . "' where id='" . $gr_id . "'";
     $execute = mysqli_query($connection, $sql);
     if ($execute == TRUE) {
 ?>
